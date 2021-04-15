@@ -32,7 +32,7 @@ def predict(image: Image.Image):
         resp = {}
         resp["class"] = res[1]
         resp["confidence"] = f"{res[2]*100:0.2f}"
-        if float(resp['confidence']) >= 20.0:
+        if float(resp['confidence']) >= 15.0:
             response.append(resp)
         else:
             pass
