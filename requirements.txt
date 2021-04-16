@@ -4,3 +4,4 @@ Pillow==2.2.2
 tensorflow==2.4.1
 numpy==1.19.2
 python-multipart==0.0.5
+black==20.8b1
