@@ -7,15 +7,12 @@ from typing import List
 from tensorflow.keras.preprocessing import image
 
 
-# Import model_loader.py functions
 from model import loadModelH5
 
-
-
 app = FastAPI(
-    title="Tensorflow model classification",
+    title="Classification with TensorFlow",
     version=1.0,
-    description="This is an example",
+    description="Example",
 )
 
 

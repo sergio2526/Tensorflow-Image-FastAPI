@@ -6,3 +6,4 @@ def loadModelH5():
     # Cargar el modelo
     loaded_model = tf.keras.models.load_model(MODEL_H5_FILE)
     return loaded_model
+
