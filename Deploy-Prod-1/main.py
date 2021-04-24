@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing import image
 
 
 # Import model_loader.py functions
-from model_loader import loadModelH5
+from model import loadModelH5
 
 
 
