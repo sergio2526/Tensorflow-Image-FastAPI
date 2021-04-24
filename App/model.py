@@ -1,5 +1,4 @@
 import tensorflow as tf
-import os
 
 # Función que carga el modelo H5
 def loadModelH5():
