@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing import image
 from model_loader import loadModelH5
 
 
-# Main definition for FastAPI
+
 app = FastAPI(
     title="Tensorflow model classification",
     version=1.0,
@@ -37,8 +37,8 @@ def allowed_file(filename):
 
 # Define a default route
 @app.get("/")
-def main_page():
-    return "REST service is active via FastAPI"
+def main():
+    return " Welcome to FastAPI and Tensorflow 2.0"
 
 
 # Metodo que hace las predicciónes via POST
