@@ -10,4 +10,4 @@ Muchas personas que se dedican ML no suben sus algoritmos a producción, ignoran
 
 En esta ocasión veremos un ejemplo de un clasificador de flores, abarcaremos desde exportar el modelo hasta exponer nuestro servicio por medio de **FastAPI**.
 
-### Leer blog completo en [Enlace]
+### Leer blog completo en [https://sergiorubiano.medium.com/](https://sergiorubiano.medium.com/exponer-modelo-de-clasificaci%C3%B3n-mediante-tensorflow-y-fastapi-e9e27d5f1ad8)
